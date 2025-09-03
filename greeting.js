@@ -10,6 +10,6 @@ const rl = readline.createInterface({ input, output });
 
 const name = await rl.question("Vad heter du?: ");
 
-console.log(chalk.blue("Hej " + name + "!"));
+console.log(chalk.blue("Hej " + name + "!🫡"));
 
 rl.close();
